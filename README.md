@@ -22,7 +22,7 @@ $ docker run \
 $ docker run \
          -itd \
          -p 80:8080 \
-         -v /Users/ifyour/Documents/Projects:/workspace \
+         -v ~/Documents/Projects:/workspace \
          --name my-frontend-dev-env \
          --restart ifyour/fe-dev-docker
 
