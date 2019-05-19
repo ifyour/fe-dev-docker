@@ -12,18 +12,18 @@ $ brew install docker
 $ docker pull ifyour/fe-dev-docker
 
 # create container
-$ docker run && \
-         -itd && \
-         -p <work-port>:8080 && \
-         -v <work-path>:/workspace && \
-         --name my-frontend-dev-env && \
+$ docker run \
+         -itd \
+         -p <work-port>:8080 \
+         -v <work-path>:/workspace \
+         --name my-frontend-dev-env \
          --restart ifyour/fe-dev-docker
 # eg:
-$ docker run && \
-         -itd && \
-         -p 80:8080 && \
-         -v /Users/ifyour/Documents/Projects:/workspace && \
-         --name my-frontend-dev-env && \
+$ docker run \
+         -itd \
+         -p 80:8080 \
+         -v /Users/ifyour/Documents/Projects:/workspace \
+         --name my-frontend-dev-env \
          --restart ifyour/fe-dev-docker
 
 # operate container
