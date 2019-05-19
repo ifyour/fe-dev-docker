@@ -8,7 +8,7 @@
 # install docker
 $ brew install docker
 
-# download this docker
+# download image
 $ docker pull ifyour/fe-dev-docker
 
 # create container
