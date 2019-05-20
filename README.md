@@ -33,6 +33,11 @@ $ docker exec -it my-frontend-dev-env zsh
 $ docker rm -f my-frontend-dev-env
 ```
 
+### Reference
+
+- [Docker Hub](https://hub.docker.com/r/ifyour/fe-dev-docker)
+- [Docker 5 分钟入门](https://github.com/ifyour/ifyour.github.io/issues/42)
+
 ### License
 
 [![CC0](https://i.creativecommons.org/p/zero/1.0/88x31.png)](https://creativecommons.org/publicdomain/zero/1.0/)
